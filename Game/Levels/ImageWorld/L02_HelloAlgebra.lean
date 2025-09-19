@@ -1,9 +1,9 @@
 import Game.Metadata
 
-World "DemoWorld"
-Level 1
+World "ImageWorld"
+Level 2
 
-Title "Hello World"
+Title "小学时的代数"
 
 Introduction "This text is shown as first message when the level is played.
 You can insert hints in the proof below. They will appear in this side panel

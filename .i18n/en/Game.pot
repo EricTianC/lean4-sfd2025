@@ -1,7 +1,7 @@
 msgid ""
 msgstr "Project-Id-Version: Game v4.22.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-29\n"
+"POT-Creation-Date: 2025-09-19\n"
 "Last-Translator: \n"
 "Language-Team: none\n"
 "Language: en\n"
@@ -12,13 +12,12 @@ msgstr "Project-Id-Version: Game v4.22.0\n"
 msgid "level completed with warnings… 🎭"
 msgstr ""
 
-#: Game.Levels.DemoWorld.L01_HelloWorld
-msgid "Hello World"
+#: Game.Levels.ImageWorld
+msgid "在这里，我们将重新遇见许多旧日的 **直觉**"
 msgstr ""
 
-#: Game
-msgid "This text appears on the starting page where one selects the world/level to play.\n"
-"You can use **markdown**."
+#: Game.Levels.ImageWorld.L01_HelloLogic
+msgid ""
 msgstr ""
 
 #: GameServer.RpcHandlers
@@ -26,52 +25,52 @@ msgid "level completed! 🎉"
 msgstr ""
 
 #: Game
-msgid "Hello World Game"
+msgid "为 2025 SFD 准备的小小 Lean4 Game"
+msgstr ""
+
+#: Game
+msgid "2025 SFD USTC"
 msgstr ""
 
 #: GameServer.RpcHandlers
 msgid "intermediate goal solved! 🎉"
 msgstr ""
 
-#: Game
-msgid "You should use this game as a template for your own game and add your own levels."
-msgstr ""
-
-#: Game
-msgid "Here you can put additional information about the game. It is accessible\n"
-"from the starting through the drop-down menu.\n"
-"\n"
-"For example: Game version, Credits, Link to Github and Zulip, etc.\n"
-"\n"
-"Use **markdown**."
-msgstr ""
-
-#: Game.Levels.DemoWorld.L01_HelloWorld
+#: Game.Levels.ImageWorld.L01_HelloLogic
 msgid "This last message appears if the level is solved."
 msgstr ""
 
-#: Game.Levels.DemoWorld.L01_HelloWorld
-msgid "This text is shown as first message when the level is played.\n"
-"You can insert hints in the proof below. They will appear in this side panel\n"
-"depending on the proof a user provides."
+#: Game.Levels.ImageWorld.L01_HelloLogic
+msgid "你好，逻辑"
 msgstr ""
 
-#: Game.Levels.DemoWorld.L01_HelloWorld
-msgid "You should use `«{g}»` now."
-msgstr ""
-
-#: Game.Levels.DemoWorld.L01_HelloWorld
-msgid "You can either start using `«{h}»` or `«{g}»`."
-msgstr ""
-
-#: Game.Levels.DemoWorld
-msgid "This introduction is shown before one enters level 1 of the demo world. Use markdown."
-msgstr ""
-
-#: Game.Levels.DemoWorld
-msgid "Demo World"
+#: Game.Levels.ImageWorld
+msgid "数学的朦胧映像"
 msgstr ""
 
 #: Game
-msgid "Game Template"
+msgid "hi! 各位在场的小伙伴们，欢迎来到 Lean4 的世界。\n"
+"\n"
+"在这里，你将见证 **数学证明** 与 **程序代码** 的奇妙相遇"
+msgstr ""
+
+#: Game
+msgid "在 2025 ustc SFD 上的演讲"
+msgstr ""
+
+#: Game.Levels.ImageWorld.L01_HelloLogic
+msgid "逻辑是什么？本关展示基本的命题逻辑推理 ——\n"
+"  `Prop` 意味着 `P` `Q` `R` 都是命题（的证明）,\n"
+"  `∧` 是数学中 “且” 的符号表示,\n"
+"  `→` 也就是 `⇒`，我们常见的 “推出”。\n"
+"\n"
+"  在 Lean4 game 的关卡中，我们使用 tactic （意为 “策略”）来推进证明。\n"
+"  （在底层，他们实际上通过执行一些预定好的逻辑来构造一些 “元对象” 来一点点构造最终的证明项）\n"
+"\n"
+"  让我们从"
+msgstr ""
+
+#: Game
+msgid "这是一个 lean4 game 项目.\n"
+"https://github.com/EricTianC/lean4-sfd2025"
 msgstr ""

@@ -1,26 +1,23 @@
-import Game.Levels.DemoWorld
+import Game.Levels.ImageWorld
 
 -- Here's what we'll put on the title screen
-Title "Hello World Game"
+Title "为 2025 SFD 准备的小小 Lean4 Game"
 Introduction
 "
-This text appears on the starting page where one selects the world/level to play.
-You can use **markdown**.
+hi! 各位在场的小伙伴们，欢迎来到 Lean4 的世界。
+
+在这里，你将见证 **数学证明** 与 **程序代码** 的奇妙相遇
 "
 
 Info "
-Here you can put additional information about the game. It is accessible
-from the starting through the drop-down menu.
-
-For example: Game version, Credits, Link to Github and Zulip, etc.
-
-Use **markdown**.
+这是一个 lean4 game 项目.
+https://github.com/EricTianC/lean4-sfd2025
 "
 
 /-! Information to be displayed on the servers landing page. -/
-Languages "en"
-CaptionShort "Game Template"
-CaptionLong "You should use this game as a template for your own game and add your own levels."
+Languages "zh"
+CaptionShort "2025 SFD USTC"
+CaptionLong "在 2025 ustc SFD 上的演讲"
 -- Prerequisites "" -- add this if your game depends on other games
 -- CoverImage "images/cover.png"
 
