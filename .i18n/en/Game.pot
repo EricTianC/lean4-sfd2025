@@ -1,51 +1,62 @@
 msgid ""
 msgstr "Project-Id-Version: Game v4.22.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-19\n"
+"POT-Creation-Date: 2025-09-20\n"
 "Last-Translator: \n"
 "Language-Team: none\n"
 "Language: en\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit"
 
-#: GameServer.RpcHandlers
-msgid "level completed with warnings… 🎭"
-msgstr ""
-
 #: Game.Levels.ImageWorld
 msgid "在这里，我们将重新遇见许多旧日的 **直觉**"
-msgstr ""
-
-#: Game.Levels.ImageWorld.L01_HelloLogic
-msgid ""
 msgstr ""
 
 #: GameServer.RpcHandlers
 msgid "level completed! 🎉"
 msgstr ""
 
-#: Game
-msgid "为 2025 SFD 准备的小小 Lean4 Game"
+#: Game.Levels.ImageWorld.L04_WowGrind
+msgid "更强的 tactic"
 msgstr ""
 
-#: Game
-msgid "2025 SFD USTC"
+#: Game.Levels.ImageWorld.L05_HiLemma
+msgid "∀ (n m : Nat), n + m = m + n"
 msgstr ""
 
 #: GameServer.RpcHandlers
 msgid "intermediate goal solved! 🎉"
 msgstr ""
 
-#: Game.Levels.ImageWorld.L01_HelloLogic
-msgid "This last message appears if the level is solved."
+#: Game.Levels.ImageWorld.L03_HelloAlgebra
+msgid "我们可以用常规的（更精细化）的思维来解决许多过去因长期训练而显得理所当然的问题\n"
+"\n"
+"如下是 “常见” 的代数问题\n"
+"\n"
+"使用策略 `rw [h]` 将目标中的假设等式左边的对象用右边的替换"
 msgstr ""
 
-#: Game.Levels.ImageWorld.L01_HelloLogic
-msgid "你好，逻辑"
+#: Game.Levels.ImageWorld.L05_HiLemma
+msgid "使用 `exact (Nat.add_comm x y)` 结束命题"
 msgstr ""
 
-#: Game.Levels.ImageWorld
-msgid "数学的朦胧映像"
+#: Game.Levels.ImageWorld.L03_HelloAlgebra
+msgid "`rw` 是处理 Lean4 中的等式关系的常见方式"
+msgstr ""
+
+#: Game.Levels.ImageWorld.L02_HelloLogic
+msgid "接下来，你还将见识许多这样的 Lean4 中表示逻辑的巧妙方式"
+msgstr ""
+
+#: Game.Levels.ImageWorld.L05_HiLemma
+msgid "（可以注意到，全程量词构造的命题实际上表现地像一个函数，实际上，这对应了一种依赖箭头类型）"
+msgstr ""
+
+#: Game.Levels.ImageWorld.L02_HelloLogic
+msgid "此时，要构造 `P → R` 类型的对象，即需证明对任意的 P 的证明 hp，都能得到 R 的证明。\n"
+"\n"
+"接下来，使用 `intro hp` 引入假设 hp\n"
+""
 msgstr ""
 
 #: Game
@@ -58,7 +69,32 @@ msgstr ""
 msgid "在 2025 ustc SFD 上的演讲"
 msgstr ""
 
-#: Game.Levels.ImageWorld.L01_HelloLogic
+#: Game.Levels.ImageWorld.L04_WowGrind
+msgid "使用 `grind` 直接结束命题"
+msgstr ""
+
+#: Game.Levels.ImageWorld.L03_HelloAlgebra
+msgid "从 `«{h}»` 或 `«{g}»` 开始都是可行的."
+msgstr ""
+
+#: Game.Levels.ImageWorld.L03_HelloAlgebra
+msgid "小学时的代数"
+msgstr ""
+
+#: Game.Levels.ImageWorld.L01_HelloRfl
+msgid "在 Lean4 中，`=` 对应类型类 (Type class)，\n"
+"  `rfl` 实际上调用了构造子 `refl` 完成证明项的构造"
+msgstr ""
+
+#: GameServer.RpcHandlers
+msgid "level completed with warnings… 🎭"
+msgstr ""
+
+#: Game.Levels.ImageWorld.L02_HelloLogic
+msgid "接下来，使用 `rcases h with ⟨hpq, hqr⟩` 拆分 “且” 命题. 其中特殊的尖括号可使用 \\<> 打出"
+msgstr ""
+
+#: Game.Levels.ImageWorld.L02_HelloLogic
 msgid "逻辑是什么？本关展示基本的命题逻辑推理 ——\n"
 "  `Prop` 意味着 `P` `Q` `R` 都是命题（的证明）,\n"
 "  `∧` 是数学中 “且” 的符号表示,\n"
@@ -67,10 +103,62 @@ msgid "逻辑是什么？本关展示基本的命题逻辑推理 ——\n"
 "  在 Lean4 game 的关卡中，我们使用 tactic （意为 “策略”）来推进证明。\n"
 "  （在底层，他们实际上通过执行一些预定好的逻辑来构造一些 “元对象” 来一点点构造最终的证明项）\n"
 "\n"
-"  让我们从"
+"  让我们从 `intro h` 开始，通过引入假设，构造目标中的 “推出” 关系"
+msgstr ""
+
+#: Game
+msgid "为 2025 SFD 准备的小小 Lean4 Game"
+msgstr ""
+
+#: Game.Levels.ImageWorld.L01_HelloRfl
+msgid "同一律"
+msgstr ""
+
+#: Game.Levels.ImageWorld.L04_WowGrind
+msgid "当然，得益于与计算机的结合，在交互式定理证明的过程中，对于那些计算机 “足以胜任的事”，\n"
+"我们有时无需过度操劳。"
+msgstr ""
+
+#: Game
+msgid "2025 SFD USTC"
+msgstr ""
+
+#: Game.Levels.ImageWorld.L02_HelloLogic
+msgid "你好，逻辑"
+msgstr ""
+
+#: Game.Levels.ImageWorld.L03_HelloAlgebra
+msgid "现在使用 `«{g}»` ."
+msgstr ""
+
+#: Game.Levels.ImageWorld.L05_HiLemma
+msgid "当我们为已证明的定理命名后，就可以像使用已有假设那样在其它证明过程中直接使用\n"
+"\n"
+"现在，查看右侧的定理 `Nat.add_comm`"
+msgstr ""
+
+#: Game.Levels.ImageWorld
+msgid "数学的朦胧映像"
+msgstr ""
+
+#: Game.Levels.ImageWorld.L02_HelloLogic
+msgid "hpq 的类型为 P → Q，类似于函数。Lean4 中这样的 “函数” 的应用不需要括号，\n"
+"`hpq hp` 即为类型 Q 的对象\n"
+"\n"
+"接下来，使用 `exact (hqr (hpq hp))` 结束证明. （注意括号和空格的使用）\n"
+""
+msgstr ""
+
+#: Game.Levels.ImageWorld.L05_HiLemma
+msgid "使用已有定理"
 msgstr ""
 
 #: Game
 msgid "这是一个 lean4 game 项目.\n"
 "https://github.com/EricTianC/lean4-sfd2025"
+msgstr ""
+
+#: Game.Levels.ImageWorld.L01_HelloRfl
+msgid "在 Lean4 中，等号表示的相等关系可用反身性 (reflexivity) 构造。\n"
+"  使用策略 `rfl` 完成证明"
 msgstr ""

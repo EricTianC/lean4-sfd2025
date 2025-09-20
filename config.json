@@ -1,7 +1,7 @@
 {
   "allGames": [
-    "leanprover-community/nng4",
-    "erictianc/lean4-sfd2025"
+    "erictianc/lean4-sfd2025",
+    "leanprover-community/nng4"
   ],
 
   "languages": [

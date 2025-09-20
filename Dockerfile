@@ -24,16 +24,10 @@ RUN useradd -m -s /bin/bash -G sudo leanuser \
 USER leanuser
 WORKDIR /home/leanuser
 
-COPY --chown=leanuser:leanuser . /home/leanuser/lean4-sfd2025/
-
 RUN curl https://elan.lean-lang.org/elan-init.sh -sSf | sh -s -- -y
 ENV PATH="/home/leanuser/.elan/bin:${PATH}"
 
 RUN git clone https://github.com/leanprover-community/lean4game.git /home/leanuser/lean4game
-
-WORKDIR /home/leanuser/lean4-sfd2025
-RUN lake update -R && \
-    lake build
 
 WORKDIR /home/leanuser/lean4game
 RUN npm install
